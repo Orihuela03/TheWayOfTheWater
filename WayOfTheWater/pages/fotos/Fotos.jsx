@@ -9,12 +9,15 @@ function Fotos() {
       <Header />
       <p>Esta es la pagina de fotos</p>
       <div className="container">
-        {
-          fotos.map((foto) => (
-            <img src={`/fotos/${foto.src}`} alt="foto" class="image-array" />
-          ))
-        }
+        <div className="images">
+          {
+            fotos.map((foto) => (
+              <img src={`/fotos/${foto.src}`} alt="foto" class="image-array" />
+            ))
+          }
+        </div>
       </div>
+      <Footer />
     </>
   )
 }
