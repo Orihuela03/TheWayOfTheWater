@@ -4,6 +4,7 @@
 }
 
 footer {
+  flex-direction: row;
   background-color: #3a76cb;
   color: #f9f871;
   display: flex;
@@ -23,4 +24,9 @@ footer {
 .link-format {
   text-decoration: none;
   color: #f9f871;
+}
+
+.social-icons {
+  height: 1em;
+  width: 5em;
 }
