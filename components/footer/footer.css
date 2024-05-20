@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  flex-direction: row;
+  background-color: #3a76cb;
+  color: #f9f871;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.copyright {
+  color: #f9f871;
+}
+
+.link-format {
+  text-decoration: none;
+  color: #f9f871;
+}
+
+.social-icons {
+  height: 1em;
+  width: 5em;
+}
