@@ -8,13 +8,15 @@ const Footer = () => {
       <p className="copyright">
         &copy; {new Date().getFullYear()} Marcos Orihuela García.
       </p>
+
       <a className='link-format' href='https://formacion.intef.es/mod/book/view.php?id=2609&chapterid=2196'>Todos los derechos reservados.</a>
-      <script src="https://kit.fontawesome.com/1211bb8815.js" crossorigin="anonymous"></script>
-      <ul class="social-icons">
-        <li><a href="https://www.facebook.com/cifpsancristobal" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
-        <li><a href="https://twitter.com/cifpsancristobal" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
-        <li><a href="https://www.instagram.com/cifpsancrstoba" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
-      </ul>
+      
+      <div className='social-icons' style={{fontSize:"5em", color: 'yellow'}}>
+      <img src="../../public/fotos/iconos/facebook-icon.jpg" />
+      <img src="../../public/fotos/iconos/instagram-icon.png" />
+      <img src="../../public/fotos/iconos/twitter-icon.png" />
+      <img src="../../public/fotos/iconos/github-icon.png" />
+      </div>
 
     </footer>
   );
