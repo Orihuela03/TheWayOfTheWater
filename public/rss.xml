@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Tiburcio apruebame</title>
+    <description>Por Favor</description>
+    <link>https://example.com</link>
+    <language>es</language>
+    <managingEditor>editor@example.com (Editor)</managingEditor>
+    <webMaster>webmaster@example.com (Webmaster)</webMaster>
+    <pubDate>Wed, 13 Jun 2024 12:00:00 GMT</pubDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://example.com/logo.png</url>
+      <title>Galería de Fotos</title>
+      <link>https://example.com</link>
+    </image>
+    <item>
+      <title>Foto 1</title>
+      <description>Descripción de la Foto 1<br><img src="https://via.placeholder.com/150" /></br></description>
+      <link>https://example.com/photos/1</link>
+      <guid isPermaLink="false">1</guid>
+      <pubDate>Wed, 13 Jun 2024 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Foto 2</title>
+      <description>Descripción de la Foto 2<br><img src="https://via.placeholder.com/150" /></br></description>
+      <link>https://example.com/photos/2</link>
+      <guid isPermaLink="false">2</guid>
+      <pubDate>Wed, 13 Jun 2024 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
